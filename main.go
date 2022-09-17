@@ -3,12 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello World")
-	var whatToSay string
-	whatToSay = "Gang"
-	//declare variable := whatever  
+	whatToSay := "Gang"
+	sayHelloWorld(whatToSay)
 }
 
 func sayHelloWorld(whatToSay string){
-
+	fmt.Println(whatToSay)
 }
