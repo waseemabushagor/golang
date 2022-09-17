@@ -1,12 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"myapp/doctor"
 
 func main() {
-	whatToSay := "Gang"
-	sayHelloWorld(whatToSay)
-}
-
-func sayHelloWorld(whatToSay string){
+	whatToSay := doctor.Intro()
 	fmt.Println(whatToSay)
 }
